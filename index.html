@@ -14,8 +14,49 @@
     <title>NY Times Search App</title>
 </head>
 
-<body>
-
+<body></body>
+    <container>
+        <div class = "row">
+        <div class = "col-md-1"> </div> <!-- empty col -->
+        <div class = "col-md-10"> 
+        <h1> New York Times Search <h1>
+        </div>
+        <div class = "col-md-1"> </div> <!-- empty col -->
+        </div>
+    <br>
+        <div id= "row">
+        <div id = "col-md-1"> </div> <!-- empty col -->
+        <div id = "col-md-10">
+            <div id=searchParameters>
+                <form>
+                    <div class="form-group" id="myForm">
+                        <label for="exampleInputEmail1">Search Term:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                    </div>
+                    <div class="form-group" id="myForm">
+                        <label for="exampleInputPassword1">Number of Records to Retrieve</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                    </div>
+                    <div class="form-group" id="myForm">
+                        <label for="exampleInputEmail1">Start Year (Optional)</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                    </div>
+                    <div class="form-group" id="myForm">
+                        <label for="exampleInputPassword1">End Year (Optional)</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-primary">Reset</button> 
+                </form>
+            </div>
+        </div>
+        <div id = "col-md-1"></div> <!--empty col -->            
+        </div>
+        
+        
+        
+        
+    </container>
 </body>
 
 </html>
