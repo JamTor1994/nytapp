@@ -1,0 +1,12 @@
+#row {
+    margin-left: 8%;
+    margin-right: 8%;
+    border: solid
+}
+hr {
+    border: solid;
+}
+#col-md-10{
+    padding-left: 30px;
+    padding-right: 30px;
+}

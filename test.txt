@@ -1,0 +1,17 @@
+<div>
+    <h5>Top Articles</h5>
+    <div id= "articalContainer">
+    </div>
+</div>
+
+
+
+
+$("#submitBtn").on("click", function(){
+    updateDisplay(getArticles());
+});
+
+$("#resetBtn").on("click", function({
+    document.getElementById("myForm").reset();
+
+})

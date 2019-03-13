@@ -15,48 +15,76 @@
 </head>
 
 <body></body>
-    <container>
-        <div class = "row">
-        <div class = "col-md-1"> </div> <!-- empty col -->
-        <div class = "col-md-10"> 
-        <h1> New York Times Search <h1>
+<container>
+    <div class="row">
+        <div class="col-md-1"> </div> <!-- empty col -->
+        <div class="col-md-10">
+            <h1> New York Times Search <h1>
         </div>
-        <div class = "col-md-1"> </div> <!-- empty col -->
-        </div>
+        <div class="col-md-1"> </div> <!-- empty col -->
+    </div>
     <br>
-        <div id= "row">
-        <div id = "col-md-1"> </div> <!-- empty col -->
-        <div id = "col-md-10">
+    <div id="row">
+        <div id="col-md-1"> </div> <!-- empty col -->
+        <div id="col-md-10">
             <div id=searchParameters>
+                <h5>Search</h5>
+                <hr>
                 <form>
                     <div class="form-group" id="myForm">
                         <label for="exampleInputEmail1">Search Term:</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="">
                     </div>
                     <div class="form-group" id="myForm">
-                        <label for="exampleInputPassword1">Number of Records to Retrieve</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                            <label for="exampleInputPassword1">Number of Records to Retrieve</label>
+                        <select class="Number of Records to Retrieve: " required>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+
+                        </select>
+                        </select>
                     </div>
                     <div class="form-group" id="myForm">
                         <label for="exampleInputEmail1">Start Year (Optional)</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="">
                     </div>
                     <div class="form-group" id="myForm">
                         <label for="exampleInputPassword1">End Year (Optional)</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
-                    <button type="reset" class="btn btn-primary">Reset</button> 
+                    <button type="reset" class="btn btn-primary">Reset</button>
                 </form>
             </div>
         </div>
-        <div id = "col-md-1"></div> <!--empty col -->            
+        <div id="col-md-1"></div>
+        <!--empty col -->
+    </div>
+
+    <br>
+
+    <div id="row" style="padding-left: 30px; padding-right: 30px;">
+        <h5>Top Articles</h5>
+        <hr>
+        <div id="articalContainer">
+            <h1>hello</h1>
         </div>
-        
-        
-        
-        
-    </container>
+    </div>
+
+
+
+</container>
 </body>
 
 </html>
